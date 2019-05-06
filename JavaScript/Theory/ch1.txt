@@ -1,0 +1,6 @@
+<head>
+    alert("Hello There!");
+</head>
+<body>
+    alert("Hello There!");
+</body>

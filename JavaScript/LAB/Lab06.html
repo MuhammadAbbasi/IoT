@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <script>
+            function Render()
+            {
+                var gtext = frmMain.txtGText.value;
+                var ftext = frmMain.txtFText.value;
+                var rtext = frmMain.txtRText.value;
+                var found = false;
+                document.write("Text before replacing</br>");
+
+                for(i = 0; i<gtext.length;i++){
+                    if(gtext.slice(i,(i+ftext.length)) === ftext)
+                    {
+                        document.write(<mark>ftext</mark>);
+                    }
+                    else{
+                        document.write(i);
+                    }
+                }
+
+                document.write(gtext + "</br>");
+
+                for (i = 0; i <gtext.length;i++)
+                {
+                    if (gtext.slice(i,(i+ftext.length)) === ftext)
+                    {
+                        gtext = gtext.slice(0,i) + rtext + gtext.slice(i+ftext.length)
+                        found = true;
+                    }
+                }
+                if(found === false){
+                    window.alert("No text found!");
+                }
+                document.write("Text after replacing</br>");
+                document.write(gtext);
+            }            
+        </script>
+    </head>
+    <body>            
+        <form name="frmMain">
+            Text here: <input type = "text" name = "txtGText"/>
+            Find letters: <input type = "text" name = "txtFText"/>
+            Replace letters: <input type = "text" name = "txtRText"/>
+            <input type = "submit" value="Submit" onclick="Render()"/>
+        </form>
+        <script>
+           var name = "Muhammad";
+           console.log(name.toUpperCase());
+           console.log(name.toLowerCase());
+
+
+           document.write()
+        </script>
+    </body>
+</html>

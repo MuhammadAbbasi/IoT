@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script>
+			function Render()
+			{
+                var inputData01= parseInt(frmMain.txtInput01.value);
+                var inputData02= parseInt(frmMain.txtInput02.value);
+                alert("The sum is: " + (inputData01+inputData02));		
+            }
+		</script>
+	</head>
+	<body>
+		<form name = "frmMain">
+			<label>Input:</label>
+            <input type = "text" name= "txtInput01" placeholder = "Enter first number"/>
+            <input type = "text" name= "txtInput02" placeholder = "Enter second number"/>
+			<input type = "submit" value = "Add" onclick = "Render()" />
+		</form>		
+	</body>
+</html>

@@ -1,0 +1,60 @@
+var currentDate = new Date()
+
+undefined
+
+currentDate.toString()
+
+
+"Sun Jan 27 2019 09:46:31 GMT+0500 (Pakistan Standard Time)"
+
+currentDate.getDay()
+
+
+
+var dayNames = ["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"]
+
+undefined
+
+var now = new Date()
+
+undefined
+
+var theDay = now.getDay()
+
+undefined
+
+var nameOfToday = dayNames[theDay]
+
+undefined
+
+nameOfToday
+
+"Sun"
+
+currentDate.getSeconds()
+
+31
+
+currentDate.getTime()
+
+1548564391792
+
+var d = new Date()
+
+undefined
+
+currentDate.setFullYear(2001)
+
+980570791792
+
+currentDate = currentDate.setFullYear(2001)
+
+980570791792
+
+currentDate.toFixed
+
+ƒ toFixed() { [native code] }
+
+currentDate.toString()
+
+"980570791792"

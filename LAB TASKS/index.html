@@ -1,0 +1,135 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <!-- <script> //Get week day by entering number 
+            var dayOfWeek = prompt("Enter number: ")
+            if (dayOfWeek == 1)
+            {
+                alert("Monday!")
+            }
+            else if (dayOfWeek == 2){
+                alert("Tuesday!")
+            }
+            else if (dayOfWeek == 3){
+                alert("Wednesday!")
+            }
+            else if (dayOfWeek == 4){
+                alert("Thursday!")
+            }
+            else if (dayOfWeek == 5){
+                alert("Friday!")
+            }
+            else if (dayOfWeek == 6){
+                alert("Saturday!")
+            }
+            else if (dayOfWeek == 7){
+                alert("Sunday!")
+            }
+            else {
+                alert("Invalid Input")
+            }
+        </script> -->
+
+
+        <!-- <script>
+            var geo = prompt("Have geometry?");
+            var admitCard = prompt("Have Admit Card?");
+            if (geo == "true" && admitCard == "true"){
+                alert("Give Paper!")
+            }
+            else if(geo == "false" && admitCard == "true"){
+                var haveAFriend = prompt("Have friend?")
+                if (haveAFriend == "true"){
+                    alert("Alright have a seat!")
+                }
+            }
+            else{
+                alert("You can not give paper!")
+            }
+        </script> -->
+
+        <!-- <script>
+            var traffic = prompt("Hows the traffic? (dense, normal, none)");
+            if (traffic == "dense"){
+                var haveBike = prompt("Do you have bike? (yes , no)");
+                if (haveBike == "yes"){
+                    alert("Get the bike as the traffic is dense right now")
+                }
+                else{
+                    alert("Khuwar ho jao ge!!")
+                }
+            }
+            else if (traffic == "normal"){
+                var haveBike = prompt("Do you have bike? (yes , no)");
+                var haveCar = prompt("Do you have car? (yes , no)");
+                if (haveBike == "yes" && haveCar == "yes"){
+                    alert("Decide yourself as traffic is normal")
+                }
+                else if (haveBike == "no" && haveCar == "yes"){
+                    alert("Get your car!")
+                }
+                else if (haveBike == "yes" && haveCar == "no"){
+                    alert("Get your bike!")
+                }
+                else if(haveBike == "no" || haveCar == "no"){
+                    alert("Try to get public transport")                
+                }
+            }
+            else if(traffic == "none")
+            {
+                var haveBike = prompt("Do you have bike? (yes , no)");
+                var haveCar = prompt("Do you have car? (yes , no)");
+                if (haveBike == "yes" || haveCar == "yes"){
+                    alert("get your sawari!")
+                }
+                else{
+                    alert("You shaould stay at home! \nBuy something stupid!")
+                }
+            }
+            
+        </script> -->
+        <!-- <script>
+            arr = []
+            arr[0] = prompt("Enter first item: ")
+            arr[1] = prompt("Enter second item:")
+            alert(arr[0]+' '+arr[1])
+            arr[1] = arr[0]
+            alert(arr[0]+' '+arr[1])
+            arr[1] = "Hello"
+            alert(arr[0]+' '+arr[1])
+            arr[0] = arr[1]
+            alert(arr[0]+' '+arr[1])
+            arr.pop()
+            alert(arr[0]+' '+arr[1])
+            arr.push("PushedItem")
+            alert(arr[0]+' '+arr[1]+' '+arr[2])
+            arr.shift()
+            alert(arr[0]+' '+arr[1]+' '+arr[2])
+            arr.unshift("unShifted","UnSecond")
+            alert(arr[0]+' '+arr[1]+' '+arr[2])
+        </script> -->
+    <script>
+        math = parseInt(prompt("Enter Maths marks: "));
+        phys = parseInt(prompt("Enter Physics marks: "));
+        chem = parseInt(prompt("Enter Chemistry marks: "));
+        var total = math + phys + chem;
+        var percentage = total/300 * 100;
+        alert("Your percentage is: " + percentage);
+
+        if (percentage >= 90){
+            alert("Congrats! You got A+ grade");
+        }
+        else if(percentage >= 80){
+            alert("Congrats You got A Grade");}
+        else if(percentage >= 70){
+            alert("You got B grade");}
+        else if (percentage >=60){
+            alert("You got C grade");}
+        else {
+            alert("You have failed!!");}
+    </script>
+    </body>
+</html>
